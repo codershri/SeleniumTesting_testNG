@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-10T14:33:44 IST" name="Suite" finished-at="2025-04-10T14:36:23 IST" duration-ms="159357">
+    <groups>
+    </groups>
+    <test started-at="2025-04-10T14:33:44 IST" name="chrometest" finished-at="2025-04-10T14:35:05 IST" duration-ms="80895">
+      <class name="EMICalculator.Main">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:33:44 IST" name="driverSetup" finished-at="2025-04-10T14:33:59 IST" duration-ms="14482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="calculateEMI()[pri:1, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:33:59 IST" name="calculateEMI" finished-at="2025-04-10T14:34:02 IST" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateEMI -->
+        <test-method signature="HomeCalculator()[pri:2, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:34:02 IST" name="HomeCalculator" finished-at="2025-04-10T14:34:41 IST" duration-ms="38769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeCalculator -->
+        <test-method signature="LoanEMICalc()[pri:3, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:34:41 IST" name="LoanEMICalc" finished-at="2025-04-10T14:34:49 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanEMICalc -->
+        <test-method signature="LoanAmountCalc()[pri:4, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:34:49 IST" name="LoanAmountCalc" finished-at="2025-04-10T14:34:54 IST" duration-ms="5187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmountCalc -->
+        <test-method signature="LoanTentureCalc()[pri:5, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:34:54 IST" name="LoanTentureCalc" finished-at="2025-04-10T14:35:00 IST" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTentureCalc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EMICalculator.Main@175c2241]" started-at="2025-04-10T14:35:00 IST" name="tearDown" finished-at="2025-04-10T14:35:05 IST" duration-ms="4707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EMICalculator.Main -->
+    </test> <!-- chrometest -->
+    <test started-at="2025-04-10T14:35:06 IST" name="edgetest" finished-at="2025-04-10T14:36:23 IST" duration-ms="77644">
+      <class name="EMICalculator.Main">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:35:06 IST" name="driverSetup" finished-at="2025-04-10T14:35:22 IST" duration-ms="16425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="calculateEMI()[pri:1, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:35:22 IST" name="calculateEMI" finished-at="2025-04-10T14:35:25 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateEMI -->
+        <test-method signature="HomeCalculator()[pri:2, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:35:25 IST" name="HomeCalculator" finished-at="2025-04-10T14:36:00 IST" duration-ms="34931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeCalculator -->
+        <test-method signature="LoanEMICalc()[pri:3, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:36:00 IST" name="LoanEMICalc" finished-at="2025-04-10T14:36:08 IST" duration-ms="7364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanEMICalc -->
+        <test-method signature="LoanAmountCalc()[pri:4, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:36:08 IST" name="LoanAmountCalc" finished-at="2025-04-10T14:36:13 IST" duration-ms="5543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmountCalc -->
+        <test-method signature="LoanTentureCalc()[pri:5, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:36:13 IST" name="LoanTentureCalc" finished-at="2025-04-10T14:36:19 IST" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTentureCalc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EMICalculator.Main@7eac9008]" started-at="2025-04-10T14:36:19 IST" name="tearDown" finished-at="2025-04-10T14:36:23 IST" duration-ms="4730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EMICalculator.Main -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Suite -->
+</testng-results>
