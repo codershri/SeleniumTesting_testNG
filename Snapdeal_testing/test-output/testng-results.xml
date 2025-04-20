@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-16T21:55:33 IST" name="Snapdeal Suite" finished-at="2025-04-16T21:56:20 IST" duration-ms="46180">
+    <groups>
+    </groups>
+    <test started-at="2025-04-16T21:55:33 IST" name="Snapdeal Test" finished-at="2025-04-16T21:56:20 IST" duration-ms="46180">
+      <class name="Snapdeal.Main">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal.Main@3d285d7e]" started-at="2025-04-16T21:55:33 IST" name="setUp" finished-at="2025-04-16T21:55:34 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAutomationFlow1()[pri:0, instance:Snapdeal.Main@3d285d7e]" started-at="2025-04-16T21:55:34 IST" name="testAutomationFlow1" finished-at="2025-04-16T21:55:49 IST" duration-ms="15513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomationFlow1 -->
+        <test-method signature="testAutomationFlow2()[pri:0, instance:Snapdeal.Main@3d285d7e]" started-at="2025-04-16T21:55:49 IST" name="testAutomationFlow2" finished-at="2025-04-16T21:55:52 IST" duration-ms="3161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomationFlow2 -->
+        <test-method signature="testAutomationFlow3()[pri:0, instance:Snapdeal.Main@3d285d7e]" started-at="2025-04-16T21:55:52 IST" name="testAutomationFlow3" finished-at="2025-04-16T21:56:19 IST" duration-ms="26444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomationFlow3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Snapdeal.Main@3d285d7e]" started-at="2025-04-16T21:56:19 IST" name="tearDown" finished-at="2025-04-16T21:56:20 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Snapdeal.Main -->
+    </test> <!-- Snapdeal Test -->
+  </suite> <!-- Snapdeal Suite -->
+</testng-results>
